@@ -75,7 +75,12 @@ const Page = (props) => {
         </div>
       </div>
 
-      <div className={overlayClasses}></div>
+      <div
+        className={overlayClasses}
+        onClick={() => {
+          togglePage(false);
+        }}
+      ></div>
     </>
   );
 };
