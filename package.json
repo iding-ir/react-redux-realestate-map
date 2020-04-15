@@ -1,6 +1,6 @@
 {
   "name": "realestate-map-redux",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Real estate map filter with React and Redux.",
   "scripts": {
     "start": "react-scripts start",
@@ -41,7 +41,7 @@
     "react-redux": "^7.2.0",
     "react-scripts": "^3.4.1",
     "redux": "^4.0.5",
-    "stylecraft": "^0.7.0",
+    "stylecraft": "^0.7.1",
     "terraformer": "^1.0.9"
   },
   "eslintConfig": {
