@@ -11,7 +11,7 @@ const Tour = (props) => {
 
   return (
     <div className={tourClasses}>
-      <div className="sc-form-button sc-stretched">
+      <div className="sc-form-button sc-stretched sc-lg">
         <button
           disabled={tourIndex <= 0}
           onClick={() => {
@@ -22,7 +22,7 @@ const Tour = (props) => {
         </button>
       </div>
 
-      <div className="sc-form-button sc-stretched">
+      <div className="sc-form-button sc-stretched sc-lg">
         <button
           disabled={tourIndex <= 0}
           onClick={() => {
@@ -33,7 +33,7 @@ const Tour = (props) => {
         </button>
       </div>
 
-      <div className="sc-form-button sc-stretched">
+      <div className="sc-form-button sc-stretched sc-lg">
         <button
           onClick={() => {
             toggleTour("end-tour");
@@ -43,7 +43,7 @@ const Tour = (props) => {
         </button>
       </div>
 
-      <div className="sc-form-button sc-stretched">
+      <div className="sc-form-button sc-stretched sc-lg">
         <button
           disabled={tourIndex >= lastTourIndex}
           onClick={() => {
