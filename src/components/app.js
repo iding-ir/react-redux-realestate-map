@@ -267,8 +267,8 @@ class App extends Component {
         },
       },
       styles: {
-        // light: "mapbox://styles/mapbox/streets-v11",
-        light: "/mapcraft/jsons/styles/light/style.json",
+        light: "mapbox://styles/mapbox/streets-v11",
+        // light: "/mapcraft/jsons/styles/light/style.json",
       },
       map: {
         container: "app-map",
