@@ -1,6 +1,6 @@
 {
   "name": "realestate-map-redux",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Real estate map filter with React and Redux.",
   "scripts": {
     "start": "react-scripts start",
