@@ -18,7 +18,7 @@ const Page = (props) => {
   return (
     <>
       <div className={modalClasses}>
-        <div className="sc-card sc-shadowed">
+        <div className="sc-card">
           <header className="sc-card-header">
             <h5>{page.title}</h5>
           </header>
