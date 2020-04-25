@@ -2,16 +2,6 @@
   "name": "realestate-map-redux",
   "version": "1.1.1",
   "description": "Real estate map filter with React and Redux.",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iding-ir/realestate-map-redux.git"
-  },
   "keywords": [
     "map",
     "React",
@@ -27,6 +17,16 @@
     "url": "http://iding.ir"
   },
   "license": "ISC",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iding-ir/realestate-map-redux.git"
+  },
   "bugs": {
     "url": "https://github.com/iding-ir/realestate-map-redux/issues"
   },
