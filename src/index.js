@@ -6,7 +6,6 @@ import App from "./components/app";
 import "stylecraft/dist/stylecraft.css";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./css/index.css";
-import "./css/fonts.css";
 import "./css/input-range.css";
 import "./css/hacks.css";
 import "./css/mapbox-hacks.css";
