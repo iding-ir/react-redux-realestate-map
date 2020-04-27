@@ -2,7 +2,7 @@ import React from "react";
 import InputRange from "react-input-range";
 import * as classNames from "classnames";
 
-const Searc = (props) => {
+const Search = (props) => {
   let {
     isSlideActive,
     toggleSlide,
@@ -167,4 +167,4 @@ const Searc = (props) => {
   );
 };
 
-export default Searc;
+export default Search;

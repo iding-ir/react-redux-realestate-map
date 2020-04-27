@@ -1,5 +1,6 @@
 import React from "react";
 import * as classNames from "classnames";
+
 import "./tour.css";
 
 const Tour = (props) => {
