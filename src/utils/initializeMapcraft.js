@@ -4,8 +4,7 @@ export default () => {
   return new Mapcraft({
     env: {
       mapbox: {
-        token:
-          "pk.eyJ1IjoiYXlkaW5naGFuZSIsImEiOiJjazJpcXB1Zm8xamNvM21sNjlsMG95ejY3In0.jMuteEFuzviEuitJZ-DY2w",
+        token: process.env.REACT_APP_MAPBOX_TOKEN,
       },
     },
     styles: {
