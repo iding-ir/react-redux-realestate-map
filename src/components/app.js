@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import Mapcraft from "mapcraft";
 
 import "./app.css";
 import Map from "./map";
 import Search from "./search";
 import Tour from "./tour";
 import Page from "./page";
+import initializeMapcraft from "../utils/initializeMapcraft";
 import {
   setType,
   setRoom,
@@ -259,40 +259,7 @@ class App extends Component {
   };
 
   InitializeMap = () => {
-    this.mapcraft = new Mapcraft({
-      env: {
-        mapbox: {
-          token:
-            "pk.eyJ1IjoiYXlkaW5naGFuZSIsImEiOiJjazJpcXB1Zm8xamNvM21sNjlsMG95ejY3In0.jMuteEFuzviEuitJZ-DY2w",
-        },
-      },
-      styles: {
-        light: "mapbox://styles/mapbox/streets-v11",
-        // light: "/mapcraft/jsons/styles/light/style.json",
-      },
-      map: {
-        container: "app-map",
-        center: [5, 60],
-        zoom: 5,
-        pitch: 50,
-        bearing: 0,
-        hash: false,
-      },
-      controls: {
-        fullscreen: false,
-        geolocation: false,
-        navigation: true,
-      },
-      icons: {
-        house: "./assets/images/icon-house.png",
-        apartment: "./assets/images/icon-apartment.png",
-        shared: "./assets/images/icon-shared.png",
-        dorm: "./assets/images/icon-dorm.png",
-      },
-      geoJsons: {
-        places: "./data/places.json",
-      },
-    });
+    this.mapcraft = initializeMapcraft();
 
     this.mapcraft.load().then(() => {
       this.handleFilter();
