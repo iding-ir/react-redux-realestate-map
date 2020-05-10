@@ -6,7 +6,7 @@ import {
   DEPOSITS_SET,
 } from "../constants";
 
-const defaultState = {
+const INITIAL_STATE = {
   kinds: [
     { slug: "house", name: "House", checked: true },
     { slug: "apartment", name: "Apartment", checked: true },
@@ -33,7 +33,7 @@ const defaultState = {
   },
 };
 
-const reducer = (state = defaultState, action) => {
+const reducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case KINDS_SET:
       state.kinds.map((item) => {

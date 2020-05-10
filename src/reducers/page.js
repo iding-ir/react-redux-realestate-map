@@ -1,11 +1,11 @@
 import { PAGE_TOGGLE, PAGE_SET } from "../constants";
 
-const defaultState = {
+const INITIAL_STATE = {
   isPageActive: false,
   page: {},
 };
 
-const reducer = (state = defaultState, action) => {
+const reducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case PAGE_TOGGLE:
       return {

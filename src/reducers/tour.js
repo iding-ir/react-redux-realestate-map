@@ -1,11 +1,11 @@
 import { TOUR_TOGGLE, TOUR_SET } from "../constants";
 
-const defaultState = {
+const INITIAL_STATE = {
   isTourActive: false,
   tourIndex: 0,
 };
 
-const reducer = (state = defaultState, action) => {
+const reducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case TOUR_TOGGLE:
       return {

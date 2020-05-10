@@ -1,17 +1,17 @@
 import { combineReducers } from "redux";
 
-import filters from "./filters";
-import places from "./places";
-import slide from "./slide";
-import tour from "./tour";
-import page from "./page";
+import filtersReducer from "./filters";
+import placesReducer from "./places";
+import slideReducer from "./slide";
+import tourReducer from "./tour";
+import pageReducer from "./page";
 
 const combinedReducers = combineReducers({
-  filters,
-  places,
-  slide,
-  tour,
-  page,
+  filters: filtersReducer,
+  places: placesReducer,
+  slide: slideReducer,
+  tour: tourReducer,
+  page: pageReducer,
 });
 
 export default combinedReducers;

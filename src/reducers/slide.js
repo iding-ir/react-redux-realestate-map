@@ -1,10 +1,10 @@
 import { SLIDE_TOGGLE } from "../constants";
 
-const defaultState = {
+const INITIAL_STATE = {
   isSlideActive: false,
 };
 
-const reducer = (state = defaultState, action) => {
+const reducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case SLIDE_TOGGLE:
       return {

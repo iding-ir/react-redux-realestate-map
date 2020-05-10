@@ -1,11 +1,11 @@
 import { PLACES_SET } from "../constants";
 
-const defaultState = {
+const INITIAL_STATE = {
   type: "FeatureCollection",
   features: [],
 };
 
-const reducer = (state = defaultState, action) => {
+const reducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case PLACES_SET:
       return action.payload.places;
