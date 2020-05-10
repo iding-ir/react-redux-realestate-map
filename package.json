@@ -1,6 +1,6 @@
 {
   "name": "react-redux-realestate-map",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "description": "Real estate map filter with React and Redux.",
   "keywords": [
     "map",
