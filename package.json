@@ -32,8 +32,9 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "mapbox-gl": "^1.5.0",
+    "mapbox-gl": "^1.10.0",
     "mapcraft": "^0.1.1",
+    "node-sass": "^4.14.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-image-gallery": "^0.9.1",

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import "./app.css";
+import "./app.scss";
 import Map from "./map";
 import Search from "./search";
 import Tour from "./tour";

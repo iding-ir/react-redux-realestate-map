@@ -3,7 +3,7 @@ import * as classNames from "classnames";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-import "./page.css";
+import "./page.scss";
 
 const Page = (props) => {
   let { isPageActive, page, togglePage } = props;

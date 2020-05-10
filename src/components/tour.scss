@@ -12,18 +12,16 @@
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
-}
 
-@media only screen and (min-width: 600px) {
-  .app-tour-controls {
+  @media only screen and (min-width: 600px) {
     width: 36rem;
     left: 50%;
     right: auto;
     transform: translateX(-50%);
   }
-}
 
-.app-tour-controls.is-visible {
-  opacity: 1;
-  visibility: visible;
+  &.is-visible {
+    opacity: 1;
+    visibility: visible;
+  }
 }
