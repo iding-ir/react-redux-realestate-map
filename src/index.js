@@ -5,7 +5,7 @@ import "stylecraft/dist/stylecraft.css";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 import store from "./stores";
-import App from "./components/app";
+import App from "./components/App";
 import "./css/index.css";
 import "./css/input-range.css";
 import "./css/hacks.css";

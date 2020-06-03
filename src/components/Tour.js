@@ -1,7 +1,7 @@
 import React from "react";
 import * as classNames from "classnames";
 
-import "./tour.scss";
+import "./Tour.scss";
 
 const Tour = (props) => {
   let { isTourActive, tourIndex, lastTourIndex, toggleTour } = props;

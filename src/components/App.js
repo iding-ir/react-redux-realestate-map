@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import "./app.scss";
-import Map from "./map";
-import Search from "./search";
-import Tour from "./tour";
-import Page from "./page";
+import "./App.scss";
+import Map from "./Map";
+import Search from "./Search";
+import Tour from "./Tour";
+import Page from "./Page";
 import initializeMapcraft from "../utils/initializeMapcraft";
 import {
   setType,
