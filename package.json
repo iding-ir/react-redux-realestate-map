@@ -42,7 +42,7 @@
     "react-redux": "^7.2.0",
     "react-scripts": "^3.4.1",
     "redux": "^4.0.5",
-    "stylecraft": "^0.8.6",
+    "stylecraft": "^1.0.0",
     "terraformer": "^1.0.9"
   },
   "eslintConfig": {
