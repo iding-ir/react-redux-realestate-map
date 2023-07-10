@@ -40,7 +40,7 @@
     "react-image-gallery": "^0.9.1",
     "react-input-range": "^1.3.0",
     "react-redux": "^7.2.0",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.5",
     "stylecraft": "^1.0.0",
     "terraformer": "^1.0.9"
