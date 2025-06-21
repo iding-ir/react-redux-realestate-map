@@ -34,7 +34,6 @@
     "classnames": "^2.2.6",
     "mapbox-gl": "^1.10.0",
     "mapcraft": "^0.2.0",
-    "node-sass": "^4.14.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-image-gallery": "^0.9.1",
@@ -59,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
   }
 }

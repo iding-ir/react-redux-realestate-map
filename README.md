@@ -15,7 +15,7 @@ Data structure in this project follows [GeoJSON](https://geojson.org/) standard.
 
 ## Demo
 
-[Live demo](http://react-redux-realestate-map.iding.ir)
+[Live demo](https://react-redux-realestate-map.gilak.dev/)
 
 ## Legacy
 
